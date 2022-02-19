@@ -1,0 +1,30 @@
+{
+  "name": "rollerstrut-rollerstrut.com",
+  "version": "0.0.1",
+  "description": "Website for rollerstrut.com built on Eleventy and deployed to Netlify.",
+  "author": {
+    "name": "Andrew Disley",
+    "url": "https://simplified.co.uk/"
+  },
+  "main": "dist/index.html",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "dev": "npx @11ty/eleventy --serve",
+    "debug": "DEBUG=Eleventy* npx @11ty/eleventy"
+  },
+  "keywords": [
+    "eleventy"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewdisley/rollerstrut-rollerstrut.com.git"
+  },
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/andrewdisley/rollerstrut-rollerstrut.com/issues"
+  },
+  "homepage": "https://github.com/andrewdisley/rollerstrut-rollerstrut.com#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.0"
+  }
+}
