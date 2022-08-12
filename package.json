@@ -25,7 +25,8 @@
     "url": "https://github.com/andrewdisley/rollerstrut-rollerstrut.com/issues"
   },
   "homepage": "https://github.com/andrewdisley/rollerstrut-rollerstrut.com#readme",
-  "devDependencies": {
-    "@11ty/eleventy": "^2.0.0-canary.14"
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.0-canary.14",
+    "html-minifier": "^4.0.0"
   }
 }
